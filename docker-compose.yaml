@@ -1,0 +1,9 @@
+services:
+  1.12.2-server:
+    image: 1.12.2-pack:latest
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
+    build:
+      dockerfile: ./Dockerfile
