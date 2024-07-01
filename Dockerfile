@@ -15,7 +15,7 @@ RUN yum install java -y
 
 # Import data folder
 COPY ./data /data
-RUN chown root /data
+#RUN chown root /data
 RUN chmod -R 777 /data
 RUN echo eula=true > /data/eula.txt
 EXPOSE 25565/tcp
