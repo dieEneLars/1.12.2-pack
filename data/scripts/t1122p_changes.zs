@@ -65,9 +65,6 @@ recipes.addShapeless(<galacticraftcore:prelaunch_checklist>,
 // Add a furnace recipe for Galacticraft's silicon ore
 furnace.addRecipe(<galacticraftcore:basic_item:2>, <galacticraftcore:basic_block_core:8>);
 
-// Remove problematic IC2 chunk loader
-mods.jei.JEI.removeAndHide(<ic2:te:82>);
-
 // Add hint for the crystal
 mods.jei.JEI.addDescription(<jexclusives:crystal>, "They say some crystals can be found wandering the dry deserts...");
 
